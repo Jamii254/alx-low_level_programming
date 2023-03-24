@@ -1,15 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * mul - multiply two numbers
  * Description: multiply two numbers
- * @num1: integer value
- * @num2: integer value
- *
- *
+ * @num1: interger value
+ * @num2: interger value
  *
  * Return: result
+ * Example:
+ *      mul(4 * 5) ---> 20
  */
 
 int mul(int num1, int num2)
@@ -19,3 +18,4 @@ int mul(int num1, int num2)
 	result = num1 * num2;
 	return (result);
 }
+
